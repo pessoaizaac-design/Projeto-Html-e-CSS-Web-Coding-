@@ -1,0 +1,66 @@
+.main-bg {
+    background: var(--bg);
+    color: var(--text);
+}
+
+.white-bg {
+    background: var(--surface);
+    color: var(--text);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.menu-spacing {
+    height: 65px;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+.grad-text {
+    background: linear-gradient(135deg, var(--violet), var(--sky));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    border: 0.2rem solid var(--line);
+    color: var(--text);
+    transition: all 300ms ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-0.3rem);
+    border-color: var(--sky);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--violet), var(--sky));
+    border-color: transparent;
+}
+
+.eyebrow {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--sky);
+    margin-bottom: 2rem;
+}

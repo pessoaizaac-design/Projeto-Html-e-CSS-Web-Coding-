@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexora Digital</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/elements.css">
+    <link rel="stylesheet" href="css/classes.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <input type="checkbox" role="button" aria-label="close menu" class="close-menu" id="close-menu">
+  <label for="close-menu" title="close menu" class="close-menu-label"></label> 
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#logo">NEXORA DIGITAL</a></h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#logo">Início</a></li>
+                    <li><a href="#intro">Sobre</a></li>
+                    <li><a href="#top3">Serviços</a></li>
+                    <li><a href="#gallery">Projetos</a></li>
+                    <li><a href="#pricing">Planos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#contact" class="menu-btn">Vamos conversar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="logo" class="logo main-bg section">
+    <div class="main-content logo-content">
+      <div class="logo-text">
+        <h2>Construímos o futuro através da <span class="grad-text">tecnologia.</span></h2>
+        <p>Transformamos ideias em soluções digitais inteligentes, criando experiências que conectam pessoas, negócios e inovação.</p>
+        <div class="logo-buttons">
+            <a href="#top3" class="btn btn-primary">Conheça nossos serviços</a>
+            <a href="#gallery" class="btn">Ver projetos</a>
+        </div>
+        <div class="logo-tags">
+            <span>Web &amp; Apps</span>
+            <span>UI/UX Design</span>
+            <span>Cloud</span>
+            <span>IA aplicada</span>
+        </div>
+      </div>
+      <div class="logo-img" aria-hidden="true">
+        <div class="hero-visual">
+            <div class="hero-ring"></div>
+            <div class="hero-diamond"></div>
+
+            <div class="hero-card hero-code">
+                <div class="hero-dots"><i></i><i></i><i></i></div>
+                <div class="hero-line line-violet" style="width: 42%"></div>
+                <div class="hero-line" style="width: 78%"></div>
+                <div class="hero-line line-sky" style="width: 56%"></div>
+                <div class="hero-line" style="width: 68%"></div>
+                <div class="hero-line line-violet" style="width: 34%"></div>
+                <div class="hero-line" style="width: 82%"></div>
+                <div class="hero-line line-sky" style="width: 48%"></div>
+            </div>
+
+            <div class="hero-card hero-float float-1"><span class="hero-icon">AI</span><div><small>Soluções</small><strong>Inteligência aplicada</strong></div></div>
+            <div class="hero-card hero-float float-2"><span class="hero-icon">↗</span><div><small>Performance</small><strong>99,9% uptime</strong></div></div>
+            <div class="hero-card hero-float float-3"><span class="hero-icon">✓</span><div><small>Entregas</small><strong>+150 projetos</strong></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+    <section id="intro" class="white-bg section">
+        <div class="main-content intro-content">
+                <span class="eyebrow">Sobre nós</span>
+                <h2>Tecnologia, estratégia e <span class="grad-text">criatividade</span>.</h2>
+                <p>A NEXORA DIGITAL é uma agência que une engenharia de software, design de interfaces e visão estratégica para desenvolver soluções digitais que geram resultado real.</p>
+                <p>Trabalhamos lado a lado com nossos clientes, do primeiro conceito ao lançamento e à evolução contínua, com foco em qualidade, clareza e inovação responsável.</p>
+                <div class="intro-stats">
+                    <div><strong>8+</strong><span>anos de experiência</span></div>
+                    <div><strong>150+</strong><span>projetos entregues</span></div>
+                    <div><strong>98%</strong><span>de satisfação</span></div>
+                </div>
+        </div>
+    </section>
+
+    <section id="top3" class="top3 main-bg section">
+        <div class="main-content top3-content">
+            <h2 class="top3-main-heading">Nossos serviços</h2>
+            <p class="top3-description">Do planejamento ao código, cuidamos de cada etapa do seu projeto.</p>
+
+            <div class="top3-txt">
+                <article>
+                    <h3>Desenvolvimento Web</h3>
+                      <p>Sites e plataformas rápidos, seguros e escaláveis, construídos com tecnologias modernas.</p>
+                </article>
+                <article>
+                    <h3>Design de Interfaces</h3>
+                     <p>UI/UX centrados nas pessoas, com identidade forte e navegação intuitiva.</p>
+                </article>
+                <article>
+                    <h3>Transformação Digital</h3>
+                    <p>Consultoria, automações, cloud e inteligência artificial para modernizar a sua operação.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery white-bg section">
+        <div class="main-content gallery-content">
+            <h2 class="gallery-main-heading">Projetos</h2>
+            <p class="gallery-description">Alguns dos trabalhos que entregamos recentemente.</p>
+
+            <div class="gallery-grid">
+                <article class="gallery-card">
+                    <div class="gallery-thumb thumb-1"></div>
+                    <div class="gallery-info">
+                        <span class="gallery-tag">Fintech</span>
+                        <h3>Aurum Pay</h3>
+                        <p>Plataforma de pagamentos com painel em tempo real e 40% mais conversão.</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-thumb thumb-2"></div>
+                    <div class="gallery-info">
+                        <span class="gallery-tag">Saúde</span>
+                        <h3>VidaPlus App</h3>
+                        <p>Aplicativo de telemedicina com agendamento inteligente e prontuário seguro.</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-thumb thumb-3"></div>
+                    <div class="gallery-info">
+                        <span class="gallery-tag">Logística</span>
+                        <h3>RotaOne</h3>
+                        <p>Sistema de roteirização com IA que reduziu custos operacionais em 28%.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="work" class="work main-bg section">
+        <div class="main-content work-content">
+            <h2 class="work-main-heading">Como trabalhamos</h2>
+
+            <div class="work-txt">
+                <article>
+                    <h3>Descoberta</h3>
+                      <p>Entendemos o seu negócio, os seus objetivos e o seu público para definir a melhor estratégia digital.</p>
+                </article>
+                <article>
+                    <h3>Design e Código</h3>
+                     <p>Criamos as interfaces e desenvolvemos a solução com ciclos curtos de entrega e validação.</p>
+                </article>
+                <article>
+                    <h3>Lançamento</h3>
+                    <p>Publicamos, acompanhamos os resultados e evoluímos o produto continuamente com você.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Planos</h2>
+      <p>Escolha o formato de contratação que melhor se encaixa no momento do seu projeto. Os valores abaixo são fictícios.</p>
+
+      <div class="responsive-table">
+        <table>
+          <caption>Comparativo de planos</caption>
+
+          <thead>
+            <tr>
+              <th>Recursos</th>
+              <th>Start</th>
+              <th>Business</th>
+              <th>Enterprise</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Site institucional</td>
+              <td>Até 5 páginas</td>
+              <td>Até 15 páginas</td>
+              <td>Ilimitado</td>
+            </tr>
+            <tr>
+              <td>Design de interface</td>
+              <td>Padrão</td>
+              <td>Personalizado</td>
+              <td>Design system</td>
+            </tr>
+            <tr>
+              <td>Suporte</td>
+              <td>30 dias</td>
+              <td>6 meses</td>
+              <td>Dedicado 24/7</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td>R$ 4.900</td>
+              <td>R$ 12.900</td>
+              <td>Sob consulta</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+    <section id="contact" class="logo main-bg section">
+    <div class="main-content logo-content">
+      <div class="logo-text">
+        <h2 class="contact-header">Vamos conversar?</h2>
+        <p>Conte-nos sobre a sua ideia. Nossa equipe retorna em até 24 horas úteis.</p>
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+            <legend>Fale com a gente</legend>
+
+            <div class="form-group">
+                <label for="first-name">Nome</label>
+                <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+            </div>
+
+            <div class="form-group">
+                <label for="last-name">Sobrenome</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Seu e-mail">
+            </div>
+
+            <div class="form-group full-width">
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Conte sobre o seu projeto"></textarea>
+            </div>
+
+            <div class="form-group full-width">
+                <button type="submit">Enviar mensagem</button>
+            </div>
+        </fieldset>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer" class="white-bg footer">
+    <p>© 2026 NEXORA DIGITAL · Feito pela equipe de HTML e CSS</p>
+  </footer>
+
+  <a href="#logo" class="back-to-top">▲</a>
+</body>
+</html>
